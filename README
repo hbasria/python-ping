@@ -1,2 +1,10 @@
 Originally from http://svn.pylucid.net/pylucid/CodeSnippets/ping.py
-This version maintained at http://github.com/samuel/python-ping
+This version maintained at http://github.com/hbasria/python-ping
+
+./ping.py 8.8.8.8
+
+Statistics for 8.8.8.8:
+ - packet loss: 1 (10.00%)
+ - latency (MIN/MAX/AVG): 62/141/96
+ - jitter: 8.2129
+ - MOS: 4.3
