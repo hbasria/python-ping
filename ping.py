@@ -4,7 +4,7 @@
     A pure python ping implementation using raw socket.
 
 
-    Note that ICMP messages can only be sent from processes running as root.
+    Note root access not required
 
 
     Derived from ping.c distributed in Linux's netkit. That code is
@@ -60,6 +60,10 @@
     Januari 27, 2015
     Changed receive response to not accept ICMP request messages.
     It was possible to receive the very request that was sent.
+    
+    May 29, 2016
+    root access not required
+    latency (MIN/MAX/AVG) calc added
 
     Last commit info:
     ~~~~~~~~~~~~~~~~~
